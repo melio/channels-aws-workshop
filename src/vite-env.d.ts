@@ -1,3 +1,3 @@
 /// <reference types="vite/client" />
 
-declare module 'jsoneditor-react';
+declare module "jsoneditor-react";
