@@ -38,7 +38,7 @@ function Root() {
   });
   const mutation = useMutation(saveJson, {
     onError: (e: Error) => {
-      toast.error(e);
+      toast.error(e.message);
     },
     onSuccess: () => {
       queryClient.invalidateQueries(["json"]);
