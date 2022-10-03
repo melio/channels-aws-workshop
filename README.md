@@ -36,3 +36,4 @@ This is just a suggestion - make it your own! :)
 - Tutorial on serving sites from S3: https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html
 - Totorial on setting up credentials to use the aws and sam CLI - https://docs.amazonaws.cn/en_us/serverless-application-model/latest/developerguide/serverless-getting-started-set-up-credentials.html
 - Totorial on writting and deploying Lambdas in Typescript: https://docs.aws.amazon.com/lambda/latest/dg/typescript-package.html
+- AWS Policy Generator - https://awspolicygen.s3.amazonaws.com/policygen.html
