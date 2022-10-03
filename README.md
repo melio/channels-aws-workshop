@@ -12,6 +12,7 @@ Build a simple JSON editor
 This repo contains a simple JSON editor client app. You're mission, should You choose to accept it, is to build its backend
 
 ## Prerequisits
+- AWS Free Account - https://aws.amazon.com/free/
 - AWS SAM CLI - https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install-mac.html
 - AWS CLI - https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
