@@ -30,7 +30,7 @@ This repo contains a simple JSON editor client app. You're mission, should You c
 This is just a suggestion - make it your own! :)
 <img width="1082" alt="image" src="https://user-images.githubusercontent.com/1139234/193637757-801bce45-b831-4a6f-9424-f5fdd38e8b57.png">
 
-#Useful Resources 
+## Useful Resources 
 
 - Tutorial on serving sites from S3: https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html
 - Totorial on setting up credentials to use the aws and sam CLI - https://docs.amazonaws.cn/en_us/serverless-application-model/latest/developerguide/serverless-getting-started-set-up-credentials.html
