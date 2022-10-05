@@ -2,6 +2,7 @@ import { useState } from "react";
 import { JsonEditor as Editor } from "jsoneditor-react";
 import "./App.css";
 import "jsoneditor-react/es/editor.min.css";
+import Button from "@mui/material/Button";
 import {
   QueryClient,
   QueryClientProvider,
@@ -52,12 +53,14 @@ function Root() {
         <Editor value={json} onChange={setJson} />
       </div>
       <div>
-        <button
+        <Button
           disabled={mutation.isLoading}
           onClick={() => mutation.mutate(json)}
+          variant="contained"
+          style={{ margin: "15px 0" }}
         >
           Save
-        </button>
+        </Button>
       </div>
     </div>
   );
