@@ -1,5 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import { JsonEditor as Editor } from "jsoneditor-react";
 import "./App.css";
 import "jsoneditor-react/es/editor.min.css";
@@ -13,7 +12,7 @@ import {
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-async function saveJson(json: Object) {
+async function saveJson(json: JSON) {
   //save JSON here
   return new Promise((resolve, reject) =>
     setTimeout(() => reject("Error!"), 300)
