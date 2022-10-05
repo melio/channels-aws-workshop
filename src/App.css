@@ -39,3 +39,9 @@
 .read-the-docs {
   color: #888;
 }
+
+.surprise {
+  position: absolute;
+  top: 50px;
+  left: -200px;
+}

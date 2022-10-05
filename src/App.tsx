@@ -12,6 +12,7 @@ import {
 } from "@tanstack/react-query";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { Hello } from "./hello";
 
 async function saveJson(json: JSON) {
   //save JSON here
@@ -49,6 +50,7 @@ function Root() {
   }
   return (
     <div>
+      <Hello />
       <div>
         <Editor value={json} onChange={setJson} />
       </div>
